@@ -2,6 +2,13 @@ const fs = require('fs')
 const inquirer = require('inquirer')
 const generateMarkdown = require('./generateMarkdown.js')
 
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err){
+        if (err) {console.log(err)}
+        console.log('File Generated')
+    } )
+ 
+}
 // array of questions for user
 const questions = [
     inquirer
@@ -37,7 +44,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license?',
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+        choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD3", "None"]
     },
     {
         type: 'input',
@@ -52,6 +59,8 @@ const questions = [
 ])
     .then(answers => {
         console.log(answers)
+        let readMe = generateMarkdown(answers)
+        writeToFile('exREADME.md', readMe)
     })
     .catch(err => {
         console.log(err)
@@ -59,8 +68,7 @@ const questions = [
 ];
 
 // // function to write README file
-// function writeToFile(fileName, data) {
-// }
+
 
 
 

@@ -1,13 +1,11 @@
 // function to generate markdown for README
+// https://github.com./E-Park8/readmegenerator
 function generateMarkdown(answers) {
   return `
-  #${answers.title}
-  ![badge](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+# ${answers.title}
+![badge](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
-  ##Description
-    ${answers.description} 
-
-  ##Table of Contents 
+## Table of Contents 
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,21 +13,25 @@ function generateMarkdown(answers) {
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-  
-  ##Installation
-  ${answers.install}
 
-  ##Usage
-  ${answers.usage}
+## Description 
+${answers.description} 
 
-  ##Contributing
-  ${answers.contribution}
 
-  ##Tests
+## Installation 
+${answers.install}
 
-  ##Questions
-  If you have any questions you can find me on Github: [${answers.username}](https://github.com/${answers.username})
-  or Email me at: ${answers.email}
+## Usage 
+${answers.usage}
+
+## Contributing 
+${answers.contribution}
+
+## Tests
+
+## Questions
+If you have any questions you can find me on Github: [${answers.username}](https://github.com/${answers.username})
+or Email me at: ${answers.email}
 `;
 
   
