@@ -1,6 +1,6 @@
 
-# e
-![badge](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
+# Readme Generator
+![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents 
 - [Description](#description)
@@ -12,20 +12,24 @@
 - [Questions](#questions)
 
 ## Description 
-e 
+A generator for README 
 
 
 ## Installation 
-e
+download
 
 ## Usage 
-e
+
+
+## License
+This application is licensed under ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Contributing 
-e
+
 
 ## Tests
+s
 
 ## Questions
-If you have any questions you can find me on Github: [e](https://github.com/e)
-or Email me at: e
+If you have any questions you can find me on Github: [s](https://github.com/s)
+or Email me at: s
