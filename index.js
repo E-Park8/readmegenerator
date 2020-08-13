@@ -65,7 +65,7 @@ const questions = [
             } )
          
         } 
-        writeToFile('exREADME.md', generateMarkdown(answers))
+        writeToFile('README.md', generateMarkdown(answers))
     })
     .catch(err => {
         console.log(err)
