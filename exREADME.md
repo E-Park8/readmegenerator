@@ -12,24 +12,24 @@
 - [Questions](#questions)
 
 ## Description 
-A generator for README 
+Using user input, it can automatically markdown a readme file with appropriate headers and information. 
 
 
 ## Installation 
-download
+You will be able to clone it from my Github linked below to use freely.
 
 ## Usage 
-
+Created for a homework assignment 
 
 ## License
 This application is licensed under ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Contributing 
-
+Eric Park
 
 ## Tests
-s
+N/A
 
 ## Questions
-If you have any questions you can find me on Github: [s](https://github.com/s)
-or Email me at: s
+If you have any questions you can find me on Github: [E-Park8](https://github.com/E-Park8)
+or Email me at: epark0995@gmail.com
